@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+nav{
+    color: black;
+    background: white;
+    padding: 30px;
+    /* position: fixed;
+    width: 100% */
+
+}
+
+nav div{
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.project{
+    height: auto;
+    padding: 30px;
+    background-image: url('./images/an.jpg');
+    background-repeat: no-repeat;
+    background-size: 550%;
+    background-attachment: scroll;
+    background-blend-mode: overlay;
+   
+}
+
+
+footer{ 
+    background: white;
+    font-size: 19px;
+    font-family: cursive;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: black;
+    word-spacing: 5px;
+}
+
+.project-container{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.cursive{
+    margin-bottom: 40px;
+    color: purple;
+    margin-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3em
+}
+
+.outer{
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.897);
+    color: rgb(197, 192, 192);
+    border-radius: 5px;
+}
+
+
+.outer .image{
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid */
+}
+
+.outer .image img{
+    width: 100%
+}
+
+.content {
+  margin-top: 15px;
+  padding: 10px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content p{
+    text-align: justify;
+}
+.content a button{
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin-top: 19px;
+    border-radius:5px;
+    font-family: 'Luxurious Roman', cursive;
+}
